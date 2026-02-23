@@ -1,0 +1,6 @@
+builds:
+  include:
+    - "checks.*.*"
+    - "packages.*.*"
+    - "devShells.*.*"
+  exclude: []
