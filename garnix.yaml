@@ -4,3 +4,4 @@ builds:
     - "packages.*.*"
     - "devShells.*.*"
   exclude: []
+fodChecks: true
