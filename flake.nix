@@ -29,7 +29,10 @@
       };
 
       checks =
-        import ./nix/checks.nix {inherit pkgs src;}
+        import ./nix/checks.nix {
+          inherit pkgs src;
+          goModules = buildOpnix.goModules;
+        }
         // {
           build = buildOpnix;
         };
